@@ -1,11 +1,11 @@
 // JS comments
 
-const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+const letters = "1234567890";
 
 let interval = null;
 
 document.querySelector("h2").onmouseover = event => {  
-  let iteration = 0;
+  let iteration = 6;
   
   clearInterval(interval);
   
@@ -17,7 +17,7 @@ document.querySelector("h2").onmouseover = event => {
           return event.target.dataset.value[index];
         }
       
-        return letters[Math.floor(Math.random() * 26)]
+        return letters[Math.floor(Math.random() * 10)]
       })
       .join("");
     
@@ -25,6 +25,6 @@ document.querySelector("h2").onmouseover = event => {
       clearInterval(interval);
     }
     
-    iteration += 0 / 1;
-  }, 16);
+    iteration += 1 / 64;
+  }, 24);
 }
