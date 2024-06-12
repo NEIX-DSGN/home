@@ -1,3 +1,5 @@
+// JS comments
+
 const letters = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 
 let interval = null;
