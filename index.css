@@ -64,7 +64,7 @@ body {
 h1 {
   color: white;
   font-family: "Didot", sans-serif;
-  font-size: clamp(2em, 2vw, 4em);
+  font-size: clamp(2em, 5vw, 4em);
   font-weight: 400;
   margin: 0px;
   padding: 20px;
