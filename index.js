@@ -3,7 +3,7 @@ const letters = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
 let interval = null;
 
 document.querySelector("h1").onmouseover = event => {  
-  let iteration = 26;
+  let iteration = 36;
   
   clearInterval(interval);
   
@@ -23,6 +23,6 @@ document.querySelector("h1").onmouseover = event => {
       clearInterval(interval);
     }
     
-    iteration += 1 / 128;
+    iteration += 1 / 32;
   }, 8);
 }
