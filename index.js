@@ -25,6 +25,6 @@ document.querySelector("h1").onmouseover = event => {
       clearInterval(interval);
     }
     
-    iteration += 1 / 32;
-  }, 8);
+    iteration += 0 / 32;
+  }, 16);
 }
