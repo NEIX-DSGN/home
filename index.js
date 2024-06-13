@@ -4,7 +4,7 @@ const letters = "1234567890";
 
 let interval = null;
 
-document.querySelector("h1").onmouseover = event => {  
+document.querySelector("h2").onmouseover = event => {  
   let iteration = 0;
   
   clearInterval(interval);
@@ -25,6 +25,6 @@ document.querySelector("h1").onmouseover = event => {
       clearInterval(interval);
     }
     
-    iteration += 1 / 64;
-  }, 16);
+    iteration += 1 / 16;
+  }, 32);
 }
