@@ -71,7 +71,18 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  color: white;
+  font-family: "Didot", sans-serif;
+  font-size: clamp(2em, 5vw, 4em);
+  font-weight: 400;
+  margin: 0px;
+  padding: 20px;
+  text-align: center;
+}
+
 h1 > .magic {
   display: inline-block;
   position: relative;
 }
+
