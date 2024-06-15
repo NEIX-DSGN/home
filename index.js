@@ -1,4 +1,4 @@
-// JS comments
+// Text transition
 
 const letters = "1234567890";
 
@@ -27,4 +27,17 @@ document.querySelector("h2").onmouseover = event => {
     
     iteration += 1 / 16;
   }, 32);
+}
+
+// Pointer Blob
+
+const blob = document.getElementById("blob");
+
+window.onpointermove = event => { 
+  const { clientX, clientY } = event;
+  
+  blob.animate({
+    left: `${clientX}px`,
+    top: `${clientY}px`
+  }, { duration: 3000, fill: "forwards" });
 }
