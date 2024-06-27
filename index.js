@@ -1,11 +1,11 @@
 // Text transition
 
-const letters = "1234567890";
+const letters = "0123456789";
 
 let interval = null;
 
 document.querySelector("h2").onmouseover = event => {  
-  let iteration = 0;
+  let iteration = 6;
   
   clearInterval(interval);
   
@@ -25,7 +25,7 @@ document.querySelector("h2").onmouseover = event => {
       clearInterval(interval);
     }
     
-    iteration += 1 / 16;
+    iteration += 4 / 16;
   }, 32);
 }
 
