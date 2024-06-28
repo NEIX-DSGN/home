@@ -6,9 +6,9 @@
 }
 
 :root {  
-  --colour1: rgb(02, 07, 27);
-  --colour2: rgb(91, 101, 166);
-  --colour3: rgb(255, 255, 255);
+  --main: rgb(02, 07, 27);
+  --tint: rgb(91, 101, 166);
+  --white: rgb(255, 255, 255);
 }
 
 body {
@@ -46,7 +46,6 @@ h1, h2 {
   translate: -50% -50%;
   z-index: 0;
   text-align: center;
-  text-
 }
 
 /* Text linear infinite gradient */
@@ -55,10 +54,10 @@ h1 > .magic > .magic-text {
   animation: background-pan 3s linear infinite;
   background: linear-gradient(
     to right,
-    var(--colour1),
-    var(--colour2),
-    var(--colour3),
-    var(--colour1)
+    var(--main),
+    var(--tint),
+    var(--white),
+    var(--main)
   );
   background-size: 200%;
   -webkit-background-clip: text;
@@ -101,6 +100,7 @@ h1 > .magic {
   display: inline-block;
   position: relative;
   margin: 1rem;
+  font-size: 4rem;
 }
 
 /* Pointer Blob */
