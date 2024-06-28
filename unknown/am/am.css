@@ -1,0 +1,60 @@
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {  
+  --main: rgb(02, 07, 27);
+  --tint: rgb(91, 101, 166);
+  --white: rgb(255, 255, 255);
+}
+
+body {
+  background-color: rgb(10, 10, 10);
+  height: 100%;
+  margin: 0rem;
+  overflow-x: hidden; 
+}
+
+.container {
+  display: grid;
+  grid-template-rows: repeat(3, 150px);
+  grid-template-columns: repeat(4, 150px);
+  grid-gap: 1em;
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+h1 {
+  font-family: 'Didot', monospace;
+  font-size: 2rem;
+  color: white;
+  white-space: nowrap;
+  margin: 1rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  translate: -50% -50%;
+  z-index: 0;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Didot';
+  font-size: 1rem;
+  color: white;
+  white-space: wrap;
+  margin: 1rem;  left: 50%;
+  top: 50%;
+  translate: -50% -50%;
+  z-index: 0;
+  text-align: center;
+}
