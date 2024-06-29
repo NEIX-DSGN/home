@@ -37,7 +37,7 @@ section {
 
 h1 {
   font-family: 'Didot', monospace;
-  font-size: 2rem;
+  font-size: 3rem;
   color: white;
   white-space: nowrap;
   position: absolute;
@@ -51,10 +51,10 @@ h1 {
 
 h2 {
   font-family: 'Didot', monospace;
-  font-size: 2rem;
+  font-size: 3rem;
   color: white;
   white-space: nowrap;
-  margin-top: 4rem;
+  margin-top: 6rem;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -67,14 +67,14 @@ h2 {
 h1 > .magic {
   display: inline-block;
   position: relative;
-  font-size: 3rem;
+  font-size: 6rem;
   margin: 1rem;
 }
 
 /* Text linear infinite gradient */
 
 h1 > .magic > .magic-text {
-  animation: background-pan 3s linear infinite;
+  animation: background-pan 4s linear infinite;
   background: linear-gradient(
     to right,
     var(--main),
@@ -97,7 +97,7 @@ h1 > .magic > .magic-text {
   }
   
   to {
-    background-position: -200% center; /*horizontal speed*/
+    background-position: -200% center;
   }
 }
 
